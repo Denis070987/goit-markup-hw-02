@@ -1,2 +1,26 @@
+:root {
+    /*fonts*/
+--main-font: "roboto",sans-serif;
+--secondary-font: "raleway", sans-serif;
+
+    /*text colors*/
+--main-txt-cl: #212121;
+
+    
+    /*bg colors*/
+--dark-bg-cl: #2F303A;
+--light-bg-cl: #F5F4FA;
+    
+    /*others*/
+}
+
+
+.body 
+{font-family: var(--main-font);
+color: var(--main-txt-cl);
+}
+
+
+
 .not-visible 
 {display: none;}
