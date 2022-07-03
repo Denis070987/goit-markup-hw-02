@@ -124,10 +124,6 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-.advantages,
-.doing {
-  background-color: #e5e5e5;
-}
 
 /*team section*/
 .team-title {
@@ -144,8 +140,11 @@ team-texr {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.team {
+.team-item {
   background-color: #ffffff;
+}
+.team {
+  background-color: #f5f4fa;
 }
 
 .link:hover,
