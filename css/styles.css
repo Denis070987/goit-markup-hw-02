@@ -20,11 +20,19 @@
 color: var(--main-txt-cl);
 }
 
+/*reset styles*/
+.link {text-decoration: none; 
+}
+.list {list-style: none;
+}
+
+/*header section*/
+
+
 .link:hover,
 .link:focus
 {color: var(--accent-tx-cl);
 }
-
 .header-nav .link.current {
     color: var(--accent-tx-cl)
 }
