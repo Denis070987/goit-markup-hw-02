@@ -28,6 +28,30 @@ color: var(--main-txt-cl);
 }
 
 /*header section*/
+.logo-link {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    color: var(--main-txt-cl);
+}
+.accent {
+    color: var(--accent-tx-cl);
+}
+.header-link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;
+    color: var(--main-txt-cl);
+}
+.head-address {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;
+    color: #757575;
+}
 
 
 .link:hover,
