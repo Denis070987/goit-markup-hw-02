@@ -22,6 +22,7 @@ color: var(--main-txt-cl);
 
 /*reset styles*/
 .link {text-decoration: none; 
+color: var(--main-txt-cl);
 }
 .list {list-style: none;
 }
