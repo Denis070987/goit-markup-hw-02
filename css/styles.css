@@ -5,7 +5,7 @@
 
     /*text colors*/
 --main-txt-cl: #212121;
-
+--accent-tx-cl: #2196F3;
     
     /*bg colors*/
 --dark-bg-cl: #2F303A;
@@ -19,6 +19,22 @@
 {font-family: var(--main-font);
 color: var(--main-txt-cl);
 }
+
+.link:hover,
+.link:focus
+{color: var(--accent-tx-cl);
+}
+
+.header-nav .link.current {
+    color: var(--accent-tx-cl)
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--accent-tx-cl);
+}
+
+
 
 
 
