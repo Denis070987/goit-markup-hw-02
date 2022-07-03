@@ -133,7 +133,7 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-team-texr {
+.team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -169,6 +169,25 @@ team-texr {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*portfolio section*/
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.portfolio-item {
+  background-color: #ffffff;
 }
 
 .link:hover,
