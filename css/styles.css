@@ -47,13 +47,24 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 1200;
-
-  outline: 2px solid blue;
-  outline-offset: -2px;
 }
 
 /*header section*/
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  
+  margin-right: auto;
+}
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+
 .logo-link {
+  margin-right: 93px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -64,10 +75,14 @@ p {
   color: var(--accent-tx-cl);
 }
 .header-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
 }
 
 .head-address {
@@ -76,7 +91,13 @@ p {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: #757575;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
+
+
+
 .header {
   background-color: #ffffff;
 }
